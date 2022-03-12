@@ -5,6 +5,7 @@ Suportada a versão 3 de Python
 
 [![Updates](https://pyup.io/repos/github/Gesli/libpythonpro/shield.svg)](https://pyup.io/repos/github/Gesli/libpythonpro/)
 [![Python 3](https://pyup.io/repos/github/Gesli/libpythonpro/python-3-shield.svg)](https://pyup.io/repos/github/Gesli/libpythonpro/)
+
 Para instalar:
 
 ```console
