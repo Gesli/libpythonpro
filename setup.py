@@ -94,7 +94,7 @@ def find_package_data(
     return out
 
 
-PACKAGE = "libpythonpro"
+PACKAGE = "libpythonpro_gesli"
 NAME = PACKAGE
 DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools"
 AUTHOR = "Gesli Medina de Avelar"
