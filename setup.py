@@ -102,8 +102,8 @@ def find_package_data(
 
 
 PACKAGE = "libpythonpro"
-NAME = 'libpythonpro-gesli'
-DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools"
+NAME = "libpythonpro-gesli"
+DESCRIPTION="Este é apenas um teste com o Módulo para exemplificar construção de projetos Python no curso PyTools"
 AUTHOR = "Gesli Medina de Avelar"
 AUTHOR_EMAIL = "gesli.medina@gmail.com"
 URL = "https://github.com/Gesli/libpythonpro"
@@ -128,6 +128,7 @@ setup(
         "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
+        "Programming Language :: Python :: 3.6",
         "Framework :: Pytest",
     ],
     install_requires=[
