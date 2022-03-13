@@ -14,9 +14,7 @@ def read(fname):
 # Provided as an attribute, so you can append to these instead
 # of replicating them:
 standard_exclude = ["*.py", "*.pyc", "*$py.class", "*~", ".*", "*.bak"]
-standard_exclude_directories = [
-    ".*", "CVS", "_darcs", "./build", "./dist", "EGG-INFO", "*.egg-info"
-]
+standard_exclude_directories = [".*", "CVS", "_darcs", "./build", "./dist", "EGG-INFO", "*.egg-info"]
 
 
 # (c) 2005 Ian Bicking and contributors; written for Paste (http://pythonpaste.org)
