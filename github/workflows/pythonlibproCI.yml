@@ -20,7 +20,8 @@ jobs:
         run: |
           pytest libpythonpro --cov=libpythonpro
       - name: Relatório Coverage
-        env:
+        uses: codecov/codecov-action@v1
+        with:
           COVED_TOKEN:- nome: '${{ secrets.CODECOV_TOKEN }}'
         run: |
           pipenv run codecov
