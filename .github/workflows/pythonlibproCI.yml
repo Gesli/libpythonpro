@@ -26,9 +26,9 @@ jobs:
         if [ -f requirements-dev.txt ]; then pip install -r requirements-dev.txt codecov; fi;
     - name: Test with pytest
       run: |
-        pipenv run pytest --cov=libpythonpro
+        pytest --cov=libpythonpro
     - name: Posting Coverage
       env:
         CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
       run: |
-        pipenv run codecov
+        codecov
