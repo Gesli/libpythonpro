@@ -35,3 +35,4 @@ def test_remetente_invalido(remetente):
             'santannathiago@gmail.com',
             'Curso Python Pro',
             'Primeira turma aberta.'
+        )
