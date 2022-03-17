@@ -8,6 +8,7 @@ Link para o curso [Python Pro](https://www.python.pro.br/)
 
 [![Updates](https://pyup.io/repos/github/Gesli/libpythonpro/shield.svg)](https://pyup.io/repos/github/Gesli/libpythonpro/)
 [![Python 3](https://pyup.io/repos/github/Gesli/libpythonpro/python-3-shield.svg)](https://pyup.io/repos/github/Gesli/libpythonpro/)
+[![codecov](https://codecov.io/gh/Gesli/libpythonpro/branch/main/graph/badge.svg?token=AGPBHVNLO7)](https://codecov.io/gh/Gesli/libpythonpro)
 
 Suportada versão 3 de Python
 
