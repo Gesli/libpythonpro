@@ -29,6 +29,6 @@ jobs:
         pytest --cov=libpythonpro
     - name: Posting Coverage
       env:
-        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+        CODECOV_TOKEN: '1874a941-c8dd-4e24-9fe1-01d8ad9ff19f'
       run: |
         codecov
