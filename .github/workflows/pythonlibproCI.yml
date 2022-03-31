@@ -22,13 +22,15 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install flake8 pytest
-        if [ -f requirements-dev.txt ]; then pip install -r requirements-dev.txt codecov; fi;
+        pip install pipenv
+        pipenv install pytest-cov
+        pip install codecov
+        pipenv sync --dev
     - name: Test with pytest
       run: |
-        pytest --cov=libpythonpro
+        pipenv run pytest libpythonpro --cov=libpythonpro
     - name: Posting Coverage
       env:
-        CODECOV_TOKEN: '1874a941-c8dd-4e24-9fe1-01d8ad9ff19f'
+        CODECOV_TOKEN: '7f7cbfe5-1300-4b79-8c70-5e6514c12eac'
       run: |
         codecov
